@@ -1,0 +1,16 @@
+{
+    "name": "eduar/orientacao_objetos",
+    "description": "Estudo de orientacao a objetos",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Eduar\\OrientacaoObjetos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo"
+        }
+    ],
+    "require": {}
+}
