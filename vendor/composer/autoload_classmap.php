@@ -7,9 +7,4 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
-    'Eduar\\OrientacaoObjetos\\ContaBancaria' => $baseDir . '/src/ContaBancaria.php',
-    'Eduar\\OrientacaoObjetos\\ContasTipo\\ContaCorrente' => $baseDir . '/src/ContasTipo/ContaCorrente.php',
-    'Eduar\\OrientacaoObjetos\\ContasTipo\\ContaPoupanca' => $baseDir . '/src/ContasTipo/ContaPoupanca.php',
-    'Eduar\\OrientacaoObjetos\\Contratos\\DadosContaBancariaInterface' => $baseDir . '/src/Contratos/DadosContaBancariaInterface.php',
-    'Eduar\\OrientacaoObjetos\\Contratos\\OperacoesContaBancariaInterface' => $baseDir . '/src/Contratos/OperacoesContaBancariaInterface.php',
 );

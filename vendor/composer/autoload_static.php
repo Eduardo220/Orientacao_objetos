@@ -22,11 +22,6 @@ class ComposerStaticInitd0d1bfeb41992ac7b2ebaed3ff0694bd
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'Eduar\\OrientacaoObjetos\\ContaBancaria' => __DIR__ . '/../..' . '/src/ContaBancaria.php',
-        'Eduar\\OrientacaoObjetos\\ContasTipo\\ContaCorrente' => __DIR__ . '/../..' . '/src/ContasTipo/ContaCorrente.php',
-        'Eduar\\OrientacaoObjetos\\ContasTipo\\ContaPoupanca' => __DIR__ . '/../..' . '/src/ContasTipo/ContaPoupanca.php',
-        'Eduar\\OrientacaoObjetos\\Contratos\\DadosContaBancariaInterface' => __DIR__ . '/../..' . '/src/Contratos/DadosContaBancariaInterface.php',
-        'Eduar\\OrientacaoObjetos\\Contratos\\OperacoesContaBancariaInterface' => __DIR__ . '/../..' . '/src/Contratos/OperacoesContaBancariaInterface.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
