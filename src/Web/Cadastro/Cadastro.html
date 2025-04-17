@@ -13,16 +13,28 @@
         <center>
             <h3>Cadastro</h3>
             <form action="cadastro.php" method="POST">
+
             <label for="username">Nome Completo:</label>
-            <input type="text" id="username" name="username" required><br><br>
-            <label for="username">E-mail:</label>
-            <input type="email" id="username" name="username" required><br><br>
-            <label for="username">Endereço:</label>
-            <input type="email" id="username" name="username" required><br><br>
+            <input type="text" id="name" name="name" maxlength="30"><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" maxlength="60" required><br><br>
+
+            <label for="gender">Gênero:</label>
+            <select id="gender" name="gender" required>
+            <option value="male">Masculino</option>
+            <option value="feme">Feminino</option>
+            <option value="other">Outro</option>
+            <option value="prefiro não dizer">Prefiro não dizer</option></select><br><br>
+
+            <label for="birth_date">Data de nascimento:</label>
+            <input type="date" id="birth_date" name="birth_date" required><br><br>
+
             <label for="password">Senha:</label>
             <input type="password" id="password" name="password" required><br><br>
-            <label for="password">Confirme sua senha:</label>
-            <input type="password" id="password" name="password" required><br><br>
+
+            <label for="confirm_password">Confirme sua senha:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required><br><br>
             <input type="submit" value="Cadastrar">
             </form>
         </center>
